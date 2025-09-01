@@ -19,4 +19,22 @@
 
 ---
 
-## 📂 Project Structure
+##  Gym Management System
+
+| Feature / Module        | Member 👤               | Coach 🏋️                     | Admin 🛠️                             |
+| ----------------------- | ----------------------- | ----------------------------- | ------------------------------------- |
+| **Authentication**      | ✅ Login/Register        | ✅ Login                       | ✅ Login                               |
+| Profile Management      | ✅ Edit own profile      | ✅ Edit own profile            | ✅ Manage all users                    |
+| **Members Management**  | ❌                       | ❌                             | ✅ Full CRUD                           |
+| **Coaches Management**  | ❌                       | ✅ Edit own data               | ✅ Full CRUD                           |
+| **Classes (Sessions)**  | ✅ View & Book           | ✅ Create/Manage own           | ✅ Manage all                          |
+| Book / Cancel Classes   | ✅                       | ❌                             | ✅                                     |
+| View Class Schedule     | ✅                       | ✅                             | ✅                                     |
+| **Attendance Tracking** | View own attendance     | ✅ Mark attendance for classes | ✅ Global Reports                      |
+| **Subscriptions**       | ✅ Buy / Renew           | ❌                             | ✅ Manage plans & assign               |
+| Subscription Status     | ✅ View                  | ❌                             | ✅ View/Modify                         |
+| **Payments**            | ✅ Pay Online / Record   | ❌                             | ✅ Manage All Payments                 |
+| Payment History         | ✅ View                  | ❌                             | ✅ Reports                             |
+| **Reports & Analytics** | View own stats          | ✅ Attendance of own classes   | ✅ Revenue, Members, Global Attendance |
+| **Notifications**       | ✅ Booking Confirmations | ✅ Class Reminders             | ✅ System Alerts                       |
+| **Dashboard**           | ✅ Member Dashboard      | ✅ Coach Dashboard             | ✅ Admin Dashboard                     |
